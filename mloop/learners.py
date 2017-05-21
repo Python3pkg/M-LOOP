@@ -3,7 +3,7 @@ Module of learners used to determine what parameters to try next given previous 
 
 Each learner is created and controlled by a controller.
 '''
-from __future__ import absolute_import, division, print_function
+
 __metaclass__ = type
 
 import threading

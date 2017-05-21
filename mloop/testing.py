@@ -1,7 +1,7 @@
 '''
 Module of classes used to test M-LOOP.
 '''
-from __future__ import absolute_import, division, print_function
+
 __metaclass__ = type
 
 import numpy as np

@@ -7,7 +7,7 @@ If you use this package please cite the article http://www.nature.com/articles/s
 
 To contribute to the project or report a bug visit the project's github https://github.com/michaelhush/M-LOOP.
 '''
-from __future__ import absolute_import, division, print_function
+
 __metaclass__ = type
 
 import os

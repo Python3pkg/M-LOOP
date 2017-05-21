@@ -1,7 +1,7 @@
 '''
 Setup script for M-LOOP using setuptools. See the documentation of setuptools for further details. 
 '''
-from __future__ import absolute_import, division, print_function
+
 
 import multiprocessing as mp
 import mloop as ml

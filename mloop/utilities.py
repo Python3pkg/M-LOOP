@@ -1,7 +1,7 @@
 '''
 Module of common utility methods and attributes used by all the modules.
 '''
-from __future__ import absolute_import, division, print_function
+
 __metaclass__ = type
 
 import scipy.io as si
@@ -17,8 +17,8 @@ python_version = sys.version_info[0]
 
 #For libraries with different names in pythons 2 and 3
 if python_version < 3:
-    import Queue #@UnresolvedImport @UnusedImport
-    empty_exception = Queue.Empty
+    import queue #@UnresolvedImport @UnusedImport
+    empty_exception = queue.Empty
 else:
     import queue
     empty_exception = queue.Empty
